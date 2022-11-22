@@ -1,9 +1,16 @@
 # API client
 
+## Requirements
+Its necessary to have Python installed on your computer. This project was developed in Python 3.10 version.
+
 ## How to use
-1. Download and extract the ZIP files.
-2. Run app.py (its necessary to have Python installed).
+1. Select version in branch ('main' contains the latest version).
+2. Download and extract the ZIP file or clone the project.
+3. Run the app.py file.
 
 ## Released versions
+### v 1.1
+This version has the implementation of the feature which shows a complete address by zip code provided as a parameter to the API in "cdn.apicep.com/file/apicep/{cep}.json".
+
 ### v 1.0
-Version 1.0 is the program's debut. Contains the first project files that make up the application. The only operational function shows the current currency quotation, which is the result of a request in the API "economia.awesomeapi.com.br/json".
+Version 1.0 is the program's debut. Contains the first project files that make up the application. The implemented feature shows the current currency quotation, which is the result of a request to the API in "economia.awesomeapi.com.br/json".
