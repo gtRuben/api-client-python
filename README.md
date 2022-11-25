@@ -1,7 +1,9 @@
 # API client
 
 ## Requirements
-Its necessary to have Python installed on your computer. This project was developed in Python 3.10 version.
+Its necessary to have installed on computer:
+1. Python version 3.7 or newer: download from 'python.org/downloads/'
+2. Requests library: 'python -m pip install requests'
 
 ## How to use
 1. Select version in branch ('main' contains the latest version).

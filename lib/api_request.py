@@ -17,7 +17,7 @@ def get_address(cep:str):
     
     try:
         ads = requests.get(f'https://cdn.apicep.com/file/apicep/{cep[:5]}-{cep[5:]}.json').json()
-        return True, f'\nCode: {ads["code"]}\nState: {ads["state"]}\nCity: {ads["city"]}\nDistrict: {ads["district"]}\nAddress: {ads["address"]}'
+        return True, f'\n\tCode: {ads["code"]}\n\tState: {ads["state"]}\n\tCity: {ads["city"]}\n\tDistrict: {ads["district"]}\n\tAddress: {ads["address"]}'
 
     except:
         return False, '\nAn error occurred. Try another CEP.'
